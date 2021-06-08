@@ -1,0 +1,43 @@
+[data]
+
+# Path to the text file with the coordinates of the trench axis
+trench_axis_filename = ../data/subduction/trench.xyz
+
+# Path to the pickled file with the catalogue (an instance of 
+# the hazard modeller's toolkit Catalogue)
+catalogue_pickle_filename = ../data/catalogue/wpg_catalogue_sumatra.p
+
+# Path to the Slab 1.0 text file with the coordinates of the top of the slab
+slab1pt0_filename = ../data/subduction/sum_slab2_dep_02.23.18.xyz
+
+# Path to the Crust 1.0 text file (see)
+crust1pt0_filename = ../data/crust/crust1pt0.xyz
+
+# Path to the Litho 1.0 text file (see)
+litho_filename = None
+
+# Path to the file containing the focal mechanisms from the Global Centroid Moment Tensor #project
+gcmt_filename = ../data/gcmt/gcmt_1976_2017.ndk
+
+# Path to the file with volcanoes
+volc_filename = None
+
+# Path to the text topography file
+topo_filename = None
+
+[section]
+
+# Length of each profile [km]
+lenght = 400
+
+# Spacing [km] along the axis subduction trench as specified in the
+# variable `trench_axis_filename`
+interdistance = 100
+
+# Azimuth parameter. When equal to a real number in the range [0, 360] all
+# the profiles will follow that direction. Ortherwise, if `None` the
+# profiles have a direction perpendicular to the trench axis
+azimuth = None
+
+# Maximum depth of each profile [km]
+dep_max = 400

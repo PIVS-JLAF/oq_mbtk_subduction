@@ -1,0 +1,48 @@
+[main]
+
+reference_folder = ./../
+
+profile_sd_topsl = 40.
+edge_sd_topsl = 40.
+
+sampling = 10.
+
+float_strike = -0.5
+float_dip = -1.0
+
+slab_thickness = 70.
+hspa = 20.
+vspa = 20.
+
+profile_folder = ./
+
+# Name of the pickled catalogue
+catalogue_pickle_fname = ./../data/catalogue/wpg_catalogue_sumatra.p
+
+# Name of file with labels identifying earthquakes belonging to a given class
+treg_fname = ./../model/catalogue/wpg_catalogue_sumatra_classification.hdf5
+label = slab_sumatra
+
+# Output file withh ruptures
+out_hdf5_fname = ./../model/ruptures/ruptures_inslab_sumatra.hdf5
+
+# Output smoothing folder
+out_hdf5_smoothing_fname = ./../model/ruptures/smoothing_inslab_sumatra.hdf5
+
+# Dip angles of virtual faults within the slab
+dips = [45, 135]
+s
+# Rupture aspect rations and weights
+aspect_ratios = {2.0: 0.4, 3.0: 0.3, 6.0: 0.2, 8.0: 0.1}
+
+# Weighting
+uniform_fraction = 1.0
+
+# Magnitude scaling relationship
+mag_scaling_relation = StrasserIntraslab
+
+# MFD
+agr = 5.945
+bgr = 1.057
+mmin = 6.5
+mmax = 7.80

@@ -4,7 +4,9 @@
 
 https://wheelhouse.openquake.org/v3/linux/py38/GDAL-3.2.2-cp38-cp38-manylinux1_x86_64.whl
 numpy
-rtree  
+rtree
+json  
+ipyleaflet
 
 git+git://github.com/gem/oq-engine.git
 git+git://github.com/GEMScienceTools/oq-mbtk.git
