@@ -102,3 +102,11 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Temp directories
+*/tmp
+output/
+data/topography
+model/profiles
+model/surfaces
+model/cs_traces.txt
