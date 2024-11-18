@@ -8,7 +8,7 @@ trench_axis_filename = ../data/subduction/trench.xyz
 catalogue_pickle_filename = ../data/catalogue/wpg_Leyte_ISCGEMv10_200km.p
 
 # Path to the Slab 1.0 text file with the coordinates of the top of the slab
-slab1pt0_filename = ../data/subduction/sum_slab2_dep_02.23.18.xyz
+slab1pt0_filename = ../data/subduction/phi_slab2_dep_02.26.18.xyz
 
 # Path to the Crust 1.0 text file (see)
 crust1pt0_filename = ../data/crust/crust1pt0.xyz
