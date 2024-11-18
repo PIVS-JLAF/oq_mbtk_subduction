@@ -32,7 +32,7 @@ lenght = 400
 
 # Spacing [km] along the axis subduction trench as specified in the
 # variable `trench_axis_filename`
-interdistance = 100
+interdistance = 50
 
 # Azimuth parameter. When equal to a real number in the range [0, 360] all
 # the profiles will follow that direction. Ortherwise, if `None` the
