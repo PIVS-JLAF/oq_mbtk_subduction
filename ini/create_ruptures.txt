@@ -20,7 +20,7 @@ profile_folder = ./
 catalogue_pickle_fname = ./../data/catalogue/wpg_Leyte_ISCGEMv10_200km.p
 
 # Name of file with labels identifying earthquakes belonging to a given class
-treg_fname = ./../model/catalogue/wpg_catalogue_sumatra_classification.hdf5
+# treg_fname = ./../model/catalogue/wpg_catalogue_sumatra_classification.hdf5
 label = slab_sumatra
 
 # Output file withh ruptures
