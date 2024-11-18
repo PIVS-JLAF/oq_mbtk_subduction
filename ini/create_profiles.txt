@@ -5,7 +5,7 @@ trench_axis_filename = ../data/subduction/trench.xyz
 
 # Path to the pickled file with the catalogue (an instance of 
 # the hazard modeller's toolkit Catalogue)
-catalogue_pickle_filename = ../data/catalogue/wpg_catalogue_sumatra.p
+catalogue_pickle_filename = ../data/catalogue/wpg_Leyte_ISCGEMv10_200km.p
 
 # Path to the Slab 1.0 text file with the coordinates of the top of the slab
 slab1pt0_filename = ../data/subduction/sum_slab2_dep_02.23.18.xyz
